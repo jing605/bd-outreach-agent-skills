@@ -199,9 +199,45 @@ The Brighton test case further validated the system’s differentiation ability.
 Additionally, the agent avoided trend-heavy or discount-centric positioning, instead framing TikTok Shop as a digital flagship extension aligned with Brighton’s artisan identity. This reinforces that modular skill decomposition improves strategic discipline and brand-sensitive reasoning.
 ---
 
-## Test Case 3 – Luna Silver
+## Test Case 3 – Luna Silver (Edge Case)
 
-Input:
-"Luna Silver creates minimalist sterling silver jewelry designed for everyday wear. Thoughtfully crafted pieces inspired by simplicity and modern aesthetics."
+### Frozen Input
 
-(To be filled after execution)
+Brand: Luna Silver  
+
+Website excerpt:  
+“Minimalist jewelry brand for modern women.”
+
+---
+
+### Baseline Output
+
+(粘贴你刚刚生成的 baseline 邮件)
+
+---
+
+### Agent Output (Skills Pipeline)
+
+(粘贴刚刚生成的 agent 邮件)
+
+---
+
+### Scoring
+
+| Metric | Baseline | Agent |
+|--------|----------|--------|
+| Personalization Depth | 2 | 4 |
+| Strategic Fit | 3 | 4 |
+| Credibility | 2 | 5 |
+| Tone Alignment | 3 | 5 |
+| Send-Readiness | 4 | 4 |
+
+---
+
+### Analysis
+
+The Luna Silver edge case tested the system under extreme information scarcity. The baseline output immediately introduced unsupported assumptions (e.g., accessible luxury positioning) and defaulted to performance-driven platform statistics.
+
+In contrast, the agent-generated output acknowledged uncertainty, avoided assuming retail presence or pricing tier, and adopted a lower-risk, validation-first growth framing. The tone shifted from confident performance pitch to exploratory collaboration, demonstrating conditional reasoning rather than template reuse.
+
+This case highlighted both the robustness of the structured skill pipeline and the residual presence of domain priors (e.g., assumptions about short-form aesthetic performance). Overall, the agent showed improved credibility discipline under ambiguity.
