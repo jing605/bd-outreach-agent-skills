@@ -111,11 +111,92 @@ This comparison demonstrates how agentic decomposition improves personalization 
 
 ## Test Case 2 – Brighton
 
-Input:
-"Brighton designs women’s accessories including handbags, jewelry, and leather goods. Known for craftsmanship and timeless style. Distributed through boutiques and retail partners."
+### Frozen Input
 
-(To be filled after execution)
+Brand: Brighton  
 
+Website excerpt:  
+“Brighton creates timeless fashion accessories including jewelry, handbags, and leather goods. Known for artisan craftsmanship and signature heart motifs. Strong retail footprint across the U.S.”
+
+---
+
+### Baseline Output
+
+**Subject:** Unlock Incremental DTC Growth for Brighton on TikTok Shop
+
+Hi [Name],
+
+I hope you’re doing well. I’m reaching out from the TikTok Shop team because we’ve been following Brighton and believe your brand is exceptionally well-positioned to unlock incremental DTC growth on TikTok Shop.
+
+TikTok Shop has quickly become one of the fastest-growing commerce channels in the U.S., especially for fashion and accessories brands looking to combine storytelling, community, and conversion in one ecosystem.
+
+A few highlights:
+- $500M+ GMV generated in just 4 days during BFCM
+- 76% YoY growth for brands doing $10M+ annually
+- 10M+ shoppable videos created by affiliate creators
+- Rapid acceleration in jewelry & accessories driven by creator-led content + paid amplification
+
+We’re seeing established brands leverage TikTok Shop as a high-ROI performance channel by combining:
+1. Creator-driven content that builds trust and drives discovery  
+2. Shop tab + in-feed conversion  
+3. Ads amplification to scale winning products  
+4. Campaign moments (Holiday, Valentine’s Day, Mother’s Day, etc.)  
+
+For a brand like Brighton — with strong gifting positioning, distinctive design language, and loyal customer base — TikTok Shop could serve as:
+- A new customer acquisition engine  
+- A way to activate younger audiences  
+- A performance-driven complement to wholesale & traditional eCommerce  
+
+We’d love to explore a pilot strategy tailored specifically to Brighton’s assortment and brand positioning. Would you be open to a 30-minute conversation next week?
+
+Best regards,  
+[Your Name]  
+TikTok Shop  
+
+---
+
+### Agent Output (Skills Pipeline)
+
+**Subject Options:**
+1. Extending Brighton’s Craftsmanship Story to TikTok Shop  
+2. Turning Brighton’s Heart Motif into a Digital Storytelling Asset  
+3. From Retail Heritage to Digital Flagship on TikTok Shop  
+
+Hi [Name],
+
+I’ve been studying Brighton’s positioning around timeless accessories and artisan craftsmanship, particularly the way your signature heart motif creates an instantly recognizable design language across jewelry and leather goods.
+
+Given Brighton’s strong U.S. retail footprint, there’s a clear opportunity to translate that in-store trust into a controlled digital flagship experience on TikTok Shop — not as a discount channel, but as a storytelling extension of your brand.
+
+Our approach would center on Creator-Led Storytelling Commerce: pairing Brighton with aesthetically aligned creators who highlight craftsmanship details, styling versatility, and gifting moments. The heart motif, in particular, provides a repeatable visual hook for close-up craftsmanship shots and milestone storytelling (Mother’s Day, anniversaries, personal keepsakes).
+
+Rather than chasing trends, the focus would be on building narrative consistency — establishing hero SKUs, scaling craftsmanship-focused content, and gradually reinforcing retail-to-digital authority.
+
+If helpful, I can share a brief 30-60-90 day outline tailored specifically to Brighton’s category mix and retail cadence.
+
+Best,  
+[Your Name]  
+TikTok Shop Category Partnerships  
+
+---
+
+### Scoring
+
+| Metric | Baseline | Agent |
+|--------|----------|--------|
+| Personalization Depth | 3 | 5 |
+| Strategic Fit | 3 | 5 |
+| Credibility | 3 | 5 |
+| Tone Alignment | 4 | 5 |
+| Send-Readiness | 4 | 5 |
+
+---
+
+### Analysis
+
+The Brighton test case further validated the system’s differentiation ability. While the baseline output defaulted to performance-driven growth framing similar to the APM case, the agent-generated output shifted toward craftsmanship storytelling, heritage positioning, and retail trust extension. This demonstrated conditional strategic adaptation rather than template reuse. The largest performance gap appeared in strategic framing and personalization depth.
+
+Additionally, the agent avoided trend-heavy or discount-centric positioning, instead framing TikTok Shop as a digital flagship extension aligned with Brighton’s artisan identity. This reinforces that modular skill decomposition improves strategic discipline and brand-sensitive reasoning.
 ---
 
 ## Test Case 3 – Luna Silver
